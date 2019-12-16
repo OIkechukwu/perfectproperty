@@ -14,11 +14,11 @@ This process here should be able to guide you on how to contribute effectively t
 - Fork the repository to generate a copy of your own.
 - Clone the repository.
 ```use git command line
-    git clone https://github.com/hngi/Lancer.git
+    git clone https://github.com/Ebugo/perfectproperty.git
 ```
 - Make the repository (the forked repo) the remote upstream 
 ```use git command line
-    git add remote upstream https://github.com/hngi/Lancer.git
+    git add remote upstream https://github.com/Ebugo/perfectproperty.git
 ```
 - Create a branch, the branch name should at least be meaningfull e.g if you're working on the footer, your branch name would be;
 ```use git command line
