@@ -20,7 +20,7 @@ This process here should be able to guide you on how to contribute effectively t
 ```use git command line
     git add remote upstream https://github.com/Ebugo/perfectproperty.git
 ```
-- Create a branch, the branch name should at least be meaningfull e.g if you're working on the footer, your branch name would be;
+- Create a branch, the branch name should at least be meaningful e.g if you're working on the footer, your branch name would be;
 ```use git command line
     git checkout -b footer
 ```
@@ -30,6 +30,7 @@ This process here should be able to guide you on how to contribute effectively t
 ```
 - Push your codes to the remote upstream repository
 ```use git command line
+    git add <filename>  **or**  git add .  (to add all files)
     git push -u origin master
 ```
 - Or you can also push your code to the current branch which you are in.
