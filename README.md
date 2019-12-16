@@ -30,7 +30,7 @@ This process here should be able to guide you on how to contribute effectively t
 ```
 - Push your codes to the remote upstream repository
 ```use git command line
-    git add <filename>  **or**  git add .  (to add all files)
+    git add <filename.ext>  OR  git add .  (to add all files)
     git push -u origin master
 ```
 - Or you can also push your code to the current branch which you are in.
