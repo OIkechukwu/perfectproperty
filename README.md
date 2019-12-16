@@ -14,7 +14,7 @@ This process here should be able to guide you on how to contribute effectively t
 - Fork the repository to generate a copy of your own.
 - Clone the repository.
 ```use git command line
-    git clone https://github.com/Ebugo/perfectproperty.git
+    git clone https://github.com/{your username}/perfectproperty.git
 ```
 - Make the repository (the forked repo) the remote upstream 
 ```use git command line
