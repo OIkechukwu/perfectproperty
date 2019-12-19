@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+nav .navbar-brand {
+    height: 40px;
+}
+nav .navbar-brand  img {
+    height: 100%;
+    width: auto;
+}
