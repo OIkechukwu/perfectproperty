@@ -1,0 +1,113 @@
+[33mcommit a19fb169b3fdad1045b5c2d459175c955ffee64b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Gospel O. Chinyereugo <gospelokpara@gmail.com>
+Date:   Sun Dec 22 18:34:07 2019 +0100
+
+    Worked on the banner and contents
+
+[33mcommit beebd9c19834bab65137e282e8b4ae8652b8553b[m
+Author: Gospel O. Chinyereugo <gospelokpara@gmail.com>
+Date:   Sun Dec 22 18:30:16 2019 +0100
+
+    Worked on the banner and contents
+
+[33mcommit 3246807015fad865718864f1b0c4d82f85e45340[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Gospel Chinyereugo (Codebug) <gospelokpara@gmail.com>
+Date:   Fri Dec 20 19:28:15 2019 +0100
+
+    Update index.html
+
+[33mcommit 28142f01974ce65891ade2fdec9c3d3a2f499069[m
+Author: Gospel Chinyereugo (Codebug) <gospelokpara@gmail.com>
+Date:   Fri Dec 20 19:26:59 2019 +0100
+
+    Update index.html
+
+[33mcommit 6f9cc9fbb0e0be2e0f5a3f4a450122a76c8f861d[m
+Author: Gospel Chinyereugo (Codebug) <gospelokpara@gmail.com>
+Date:   Fri Dec 20 19:24:41 2019 +0100
+
+    Update index.html
+
+[33mcommit a78d0b7a8950cedea30447630d7b59912b1d1946[m
+Merge: 94e4c8a 32466a7
+Author: Gospel Chinyereugo (Codebug) <gospelokpara@gmail.com>
+Date:   Fri Dec 20 19:18:49 2019 +0100
+
+    Merge pull request #1 from OIkechukwu/master
+    
+    Added the body section
+
+[33mcommit 32466a745877155404469e7b1b76a83d9749ac2e[m
+Author: OIkechukwu <ikechukwuosuji20@gmail.com>
+Date:   Fri Dec 20 16:58:39 2019 +0100
+
+    Added property images in a carousel in the main-body
+
+[33mcommit b6b7d61c8eda326a01498cc33c3c4c127c048c26[m
+Merge: 2e96873 94e4c8a
+Author: OIkechukwu <55856278+OIkechukwu@users.noreply.github.com>
+Date:   Thu Dec 19 13:09:45 2019 +0100
+
+    Merge pull request #1 from Ebugo/master
+    
+    update
+
+[33mcommit 94e4c8a50a125c0672802e8f64bfe6a63b7ac915[m
+Author: Gospel Chinyereugo (Codebug) <gospelokpara@gmail.com>
+Date:   Thu Dec 19 13:03:37 2019 +0100
+
+    Update README.md
+
+[33mcommit 3b4a9482ba0e5369ad2ca50f6aee456166d72509[m
+Author: Gospel Chinyereugo (Codebug) <gospelokpara@gmail.com>
+Date:   Thu Dec 19 13:03:12 2019 +0100
+
+    Update README.md
+
+[33mcommit 522dea7d2086dc9650b6c57a5786d70930a8d717[m
+Author: Gospel O. Chinyereugo <gospelokpara@gmail.com>
+Date:   Thu Dec 19 12:59:35 2019 +0100
+
+    added nav bar
+
+[33mcommit 2e96873153809638d37d218b746ba3f7ca8763ac[m
+Author: Gospel O. Chinyereugo <gospelokpara@gmail.com>
+Date:   Mon Dec 16 23:38:02 2019 +0100
+
+    base setup
+
+[33mcommit 6fe42955dfcaf46dcfa31b9be7c6ec160d50de8e[m
+Author: Gospel Chinyereugo (Codebug) <gospelokpara@gmail.com>
+Date:   Mon Dec 16 23:28:42 2019 +0100
+
+    Update README.md
+
+[33mcommit 67d1c4209a26d4380e3513c455b363a3a5fcc1a8[m
+Author: Gospel Chinyereugo (Codebug) <gospelokpara@gmail.com>
+Date:   Mon Dec 16 23:27:48 2019 +0100
+
+    Update README.md
+
+[33mcommit 2972f95bc7e611f9f906e7db8b6b6bf677e942a1[m
+Author: Gospel Chinyereugo (Codebug) <gospelokpara@gmail.com>
+Date:   Mon Dec 16 23:25:42 2019 +0100
+
+    Update README.md
+
+[33mcommit af8a520134bf84f470c779bed5f31069a15bf352[m
+Author: Gospel Chinyereugo (Codebug) <gospelokpara@gmail.com>
+Date:   Mon Dec 16 23:20:22 2019 +0100
+
+    Update README.md
+
+[33mcommit 56ee5f3758d5c317d0f37fe492433557a9e1756c[m
+Author: Gospel Chinyereugo (Codebug) <gospelokpara@gmail.com>
+Date:   Mon Dec 16 23:18:57 2019 +0100
+
+    Update README.md
+
+[33mcommit f64b5d3717892fbf07f441535d643444ef3969c8[m
+Author: Gospel Chinyereugo (Codebug) <gospelokpara@gmail.com>
+Date:   Mon Dec 16 23:16:09 2019 +0100
+
+    Initial commit
