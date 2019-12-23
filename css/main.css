@@ -107,6 +107,19 @@ div#choice button:hover {
     color: #ffffff;
 }
 
+.carousel-item div.row {
+    width: 80%;
+    margin: auto;
+}
+.carousel-item img {
+    width: 100%;
+}
+.carousel-caption {
+    /* color: #000000; */
+    bottom: 120px;
+    text-align: left;
+}
+
 /* footer */
 
 .box1{
@@ -186,5 +199,8 @@ div#choice button:hover {
 @media only screen and (max-width:768px) {
     .hidden {
         display: none;
+    }
+    #choice {
+        width: 100% !important;
     }
 }
