@@ -1,5 +1,31 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a, a:hover, a:active {
+    text-decoration: none;
+    color: unset;
+}
+
+.btn-action {
+    color: #ffffff;
+    background-color:  #5A2F2F;
+    border-radius: 5px;
+}
+.btn-action:hover {
+    background-color:  rgb(75, 36, 36);
+}
+.highlight {
+    background-color:  rgb(138, 96, 96);
+    border-radius: 5px;
 }
 
 nav .navbar-brand {
@@ -9,11 +35,172 @@ nav .navbar-brand  img {
     height: 100%;
     width: auto;
 }
-#prop h5{
-    text-align: center;
+.nav-item {
+    padding: 0 5px;
 }
 
-#agents h5{
-    text-align: center;
+section#banner {
+    background: url('./imgs/buy2\ 1.png') center no-repeat;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+    margin-bottom: 60px;
+}
+section#banner::after {
+    background: #00000099;
+    display: block;
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+section #banner__content {
+    position: absolute;
+    top: 10vh;
+    z-index: 100;
+    width: 100%;
+    left: 0;
+}
+section #banner__content div.row h1 {
+    font-size: 3em
+}
+section #banner__content div.row form {
+    /* width: 60% */
+}
+section #banner__content div.row form * {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
+section #banner__content div.row form *:focus {
+    border: none;
 }
 
+#search-field div.row:first-child *, #search-field div.row:last-child *{
+    height: 60px;
+}
+
+div#choice button {
+    background-color: rgba(255, 255, 255, 0.67) !important;
+}
+div#choice button:hover {
+    background-color: rgba(0, 0, 0, 0.55) !important;
+    color: #ffffff;
+}
+
+.keys__container {
+    position: absolute;
+    bottom: -40px;
+    /* margin: auto; */
+    z-index: 100;
+    width: 100%;
+}
+.keys {
+    padding: 30px 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: #0a0311 0px 0px 7px;
+}
+.keys:hover {
+    background-color: #564256;
+    color: #ffffff;
+}
+
+.carousel-item div.row {
+    width: 80%;
+    margin: auto;
+}
+.carousel-item img {
+    width: 100%;
+}
+.carousel-caption {
+    /* color: #000000; */
+    bottom: 120px;
+    text-align: left;
+}
+
+/* footer */
+
+.box1{
+    /* margin: auto; */
+    text-align: center;
+    color: whitesmoke;
+    
+}
+#box1{
+    background-color: #564256;
+    padding-bottom: 20px;
+}
+#button{
+    background-color: #cf6a3d;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    text-decoration-line: none;
+    border-radius: 5%;
+    border: 1px solid #564256; 
+      
+}
+#button:hover{
+    background-color: rgb(5, 5, 77);   
+}
+#become_agent{
+    font-size: xx-large;
+}
+#find_home_address{
+    font-size: xx-large;
+    
+}
+.h6_tag{
+    font-size: smaller;
+    font-weight: 600;
+}
+.li_tag{
+    list-style: none;
+    font-weight: 50;
+    font-size: 0.9em;
+}
+#box4{
+    min-height: 50vh;
+    background-color: #0a0311;
+}
+#agent{
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+.our_agents_logo{
+    opacity:0.5;
+    width: 50%;   
+}
+.footer_headings{
+    text-transform: uppercase;
+    font-weight: lighter;
+    opacity: 0.7;
+}
+/* #footer_line1{
+    border-bottom: 2px solid gray;
+}
+#footer_line2{
+    border-bottom: 2px solid white;
+    margin-top: 1px;
+} */
+#copyright{
+    border-radius:60%;
+    border: 1px solid white;
+    font-size: x-small;
+}
+#team{
+    font-size:0.6em;
+}
+
+@media only screen and (max-width:768px) {
+    .hidden {
+        display: none;
+    }
+    #choice {
+        width: 100% !important;
+    }
+}
