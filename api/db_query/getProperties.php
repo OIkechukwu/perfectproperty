@@ -1,7 +1,7 @@
 <?php
-require 'DBSearch.php';
+require 'DBConnection.php';
 
-class GetUsers extends DBQuery {
+class GetProperty extends DBConnection {
     public function getForSale (){
         $sql = "SELECT * FROM property WHERE `purpose`='sale'";
         $query = PDO::prepare($sql);

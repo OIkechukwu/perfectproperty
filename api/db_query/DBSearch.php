@@ -1,7 +1,7 @@
 <?php
-require 'DBQuery.php';
+require 'DBConnection.php';
 
-class SearchDB extends DBQuery {
+class SearchDB extends DBConnection {
     public function searchBudget ($budget){
         $sql = "SELECT * FROM property WHERE budget=:budget";
         $query = PDO::prepare($sql);
