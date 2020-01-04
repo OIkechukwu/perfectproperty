@@ -1,14 +1,13 @@
 <?php
 require 'DBSearch.php';
 
-class GetUsers extends DBConnection {
+class GetLand extends DBConnection {
     public function getForSale (){
         $sql = "SELECT * FROM land WHERE `purpose`='sale'";
         $query = PDO::prepare($sql);
         $query->execute();
         $response = $query->fetchAll(PDO::FETCH_ASSOC);
 
-        print_r($response);
         if (count($response) == 0){
             return ['status'=>false,'message'=>"No record found", 'land'=>"none"];
         } else {
@@ -22,7 +21,6 @@ class GetUsers extends DBConnection {
         $query->execute();
         $response = $query->fetchAll(PDO::FETCH_ASSOC);
 
-        print_r($response);
         if (count($response) == 0){
             return ['status'=>false,'message'=>"No record found", 'land'=>"none"];
         } else {
@@ -36,7 +34,6 @@ class GetUsers extends DBConnection {
         $query->execute();
         $response = $query->fetchAll(PDO::FETCH_ASSOC);
 
-        print_r($response);
         if (count($response) == 0){
             return ['status'=>false,'message'=>"No record found", 'land'=>"none"];
         } else {

@@ -1,4 +1,4 @@
-<?php
+    <?php
 require 'DBConnection.php';
 
 class SearchDB extends DBConnection {

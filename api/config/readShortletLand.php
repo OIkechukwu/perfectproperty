@@ -2,11 +2,11 @@
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: appication/json; charset = UFT-8");
 
-require '../db_query/getProperties.php';
+require '../db_query/getLands.php';
 
-$getProperty = new GetProperty;
+$getLand = new GetLand;
 
-$json = json_encode($getProperty->getForSale());
+$json = json_encode($getLand->getForShortlet());
 
 // if ($json['status']) {
 //     http_response_code(200);

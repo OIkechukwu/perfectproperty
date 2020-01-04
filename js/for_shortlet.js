@@ -1,18 +1,18 @@
 const url = new Routes;
 
-let propertySaleUrl = 'http://localhost/perfectproperty/api/config/readProperty.php';
-// let propertySaleUrl = `${url.getForPropertySale}`;
-// console.log(propertyForSale)
+let propertyShortletUrl = 'http://localhost/perfectproperty/api/config/readShortletProperty.php';
+// let propertyShortletUrl = `${url.getForPropertyShortlet}`;
+// console.log(propertyForShortlet)
 
-let landSaleUrl = 'http://localhost/perfectproperty/api/config/readLand.php';
+let landShortletUrl = 'http://localhost/perfectproperty/api/config/readShortletLand.php';
 
 let propertyContainer = document.querySelector('.property__container');
 propertyContainer.innerHTML = "";
 
-//fetch properties for sale
-const fetchPropertySale = async ()=>{
+//fetch properties for Shortlet
+const fetchPropertyShortlet = async ()=>{
     try{
-        let response = await fetch(propertySaleUrl, {
+        let response = await fetch(propertyShortletUrl, {
             headers: {
                 Accept: "application/json",
                 "Content-Type": "application/json"
@@ -22,7 +22,7 @@ const fetchPropertySale = async ()=>{
         console.log(data.property)
         console.log('hi')
 
-        //insert the properties for sale into the DOM
+        //insert the properties for Shortlet into the DOM
     if (data.status) {
         data.property.forEach(element =>{
             let {title, 
@@ -62,13 +62,13 @@ const fetchPropertySale = async ()=>{
     }
 }
     
-fetchPropertySale();
+fetchPropertyShortlet();
 
-//fetch land for sale
+//fetch land for Shortlet
 
-const fetchLandSale = async ()=>{
+const fetchLandShortlet = async ()=>{
     try{
-        let response = await fetch(landSaleUrl, {
+        let response = await fetch(landShortletUrl, {
             headers: {
                 Accept: "application/json",
                 "Content-Type": "application/json"
@@ -78,7 +78,7 @@ const fetchLandSale = async ()=>{
         console.log(data.land)
         console.log('hi')
 
-        //insert the properties for sale into the DOM
+        //insert the properties for Shortlet into the DOM
         if (data.status) {
     data.land.forEach(element =>{
         let {title, 
@@ -117,4 +117,4 @@ const fetchLandSale = async ()=>{
         } 
 }
     
-fetchLandSale();
+fetchLandShortlet();

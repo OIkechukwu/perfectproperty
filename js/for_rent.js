@@ -1,18 +1,18 @@
 const url = new Routes;
 
-let propertySaleUrl = 'http://localhost/perfectproperty/api/config/readProperty.php';
-// let propertySaleUrl = `${url.getForPropertySale}`;
-// console.log(propertyForSale)
+let propertyRentUrl = 'http://localhost/perfectproperty/api/config/readRentProperty.php';
+// let propertyRentUrl = `${url.getForPropertyRent}`;
+// console.log(propertyForRent)
 
-let landSaleUrl = 'http://localhost/perfectproperty/api/config/readLand.php';
+let landRentUrl = 'http://localhost/perfectproperty/api/config/readRentLand.php';
 
 let propertyContainer = document.querySelector('.property__container');
 propertyContainer.innerHTML = "";
 
-//fetch properties for sale
-const fetchPropertySale = async ()=>{
+//fetch properties for Rent
+const fetchPropertyRent = async ()=>{
     try{
-        let response = await fetch(propertySaleUrl, {
+        let response = await fetch(propertyRentUrl, {
             headers: {
                 Accept: "application/json",
                 "Content-Type": "application/json"
@@ -22,7 +22,7 @@ const fetchPropertySale = async ()=>{
         console.log(data.property)
         console.log('hi')
 
-        //insert the properties for sale into the DOM
+        //insert the properties for Rent into the DOM
     if (data.status) {
         data.property.forEach(element =>{
             let {title, 
@@ -62,13 +62,13 @@ const fetchPropertySale = async ()=>{
     }
 }
     
-fetchPropertySale();
+fetchPropertyRent();
 
-//fetch land for sale
+//fetch land for Rent
 
-const fetchLandSale = async ()=>{
+const fetchLandRent = async ()=>{
     try{
-        let response = await fetch(landSaleUrl, {
+        let response = await fetch(landRentUrl, {
             headers: {
                 Accept: "application/json",
                 "Content-Type": "application/json"
@@ -78,7 +78,7 @@ const fetchLandSale = async ()=>{
         console.log(data.land)
         console.log('hi')
 
-        //insert the properties for sale into the DOM
+        //insert the properties for Rent into the DOM
         if (data.status) {
     data.land.forEach(element =>{
         let {title, 
@@ -117,4 +117,4 @@ const fetchLandSale = async ()=>{
         } 
 }
     
-fetchLandSale();
+fetchLandRent();

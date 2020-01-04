@@ -8,7 +8,6 @@ class GetProperty extends DBConnection {
         $query->execute();
         $response = $query->fetchAll(PDO::FETCH_ASSOC);
 
-        print_r($response);
         if (count($response) == 0){
             return ['status'=>false,'message'=>"No record found", 'property'=>"none"];
         } else {
@@ -22,7 +21,6 @@ class GetProperty extends DBConnection {
         $query->execute();
         $response = $query->fetchAll(PDO::FETCH_ASSOC);
 
-        print_r($response);
         if (count($response) == 0){
             return ['status'=>false,'message'=>"No record found", 'property'=>"none"];
         } else {
@@ -36,7 +34,6 @@ class GetProperty extends DBConnection {
         $query->execute();
         $response = $query->fetchAll(PDO::FETCH_ASSOC);
 
-        print_r($response);
         if (count($response) == 0){
             return ['status'=>false,'message'=>"No record found", 'property'=>"none"];
         } else {
