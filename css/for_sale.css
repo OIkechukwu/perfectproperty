@@ -12,11 +12,14 @@ main {
     background-color: rgb(143, 122, 94);
     /* min-height: 150px; */
 }
+.property div {
+    border-radius: 15px;
+}
 .property-description {
     display: flex;
     flex-direction: column;
     background-color: #cccccc;
-    border-radius: 15px;
+    border-radius: 0 15px 15px 0;
     /* padding: 5px; */
 }
 .property-description div {
@@ -28,4 +31,11 @@ main {
     border-radius: 50%;
     padding: 5px;
     background-color: #999999;
+}
+
+
+@media only screen and (max-width:468px) {
+    .property-description {
+        border-radius: 0 0 15px 15px;   
+    }
 }
