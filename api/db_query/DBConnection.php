@@ -6,7 +6,7 @@ class DBConnection extends PDO {
     private $dbname = 'perfectproperty';
     // private $username = 'root';
     private $username = 'id11179695_perfectproperty';
-    private $password = '';
+//     private $password = '';
     private $password = 'databases.000webhost.com';
 
     public function __construct(){
