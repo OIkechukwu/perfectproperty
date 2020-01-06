@@ -1,10 +1,10 @@
 const url = new Routes;
 
-let propertyRentUrl = 'http://localhost/perfectproperty/api/config/readRentProperty.php';
+let propertyRentUrl = 'https://upbeat-sinoussi-a84cd1.netlify.com/api/config/readRentProperty.php';
 // let propertyRentUrl = `${url.getForPropertyRent}`;
 // console.log(propertyForRent)
 
-let landRentUrl = 'http://localhost/perfectproperty/api/config/readRentLand.php';
+let landRentUrl = 'https://upbeat-sinoussi-a84cd1.netlify.com/api/config/readRentLand.php';
 
 let propertyContainer = document.querySelector('.property__container');
 propertyContainer.innerHTML = "";
