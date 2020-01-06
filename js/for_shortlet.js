@@ -1,10 +1,10 @@
 const url = new Routes;
 
-let propertyShortletUrl = 'http://localhost/perfectproperty/api/config/readShortletProperty.php';
+let propertyShortletUrl = 'https://upbeat-sinoussi-a84cd1.netlify.com/api/config/readShortletProperty.php';
 // let propertyShortletUrl = `${url.getForPropertyShortlet}`;
 // console.log(propertyForShortlet)
 
-let landShortletUrl = 'http://localhost/perfectproperty/api/config/readShortletLand.php';
+let landShortletUrl = 'https://upbeat-sinoussi-a84cd1.netlify.com/api/config/readShortletLand.php';
 
 let propertyContainer = document.querySelector('.property__container');
 propertyContainer.innerHTML = "";
