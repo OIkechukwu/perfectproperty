@@ -11,12 +11,13 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <div class="container">
-        <div class="row">
+    <div id="nav"></div>
+    <div class="container py-5 ">
+        <div class="row px-5">
             <h4>Sign Up</h4>
         </div>    
         <div class="row signUp">
-            <div class="col-md-6 mt-4 signup__container">
+            <div class="col-md-6 signup__container p-5">
                 <div class="pt1 h-100 w-100 p-5">
                     <form action="POST">
                         <div class="form-group">
@@ -45,7 +46,7 @@
                     <p>You already have an account? Click <a href="login.html">here</a> to log in.</p>
                 </div>
             </div>
-            <div class="col-md-6 mt-4 signup__container">
+            <div class="col-md-6 signup__container p-5">
                 <div class="pt2 h-100 w-100 p-5">
                     <div id="affirm">
                         <h4>Why create an account?</h4>
@@ -67,5 +68,13 @@
         </div>
     </div>
 
+    <div id="footer"></div>
+
+    
+    <script src="js/nav-and-footer.js"></script>
+    <script src="./js/jquery-3.4.1.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="js/routes/routes.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
