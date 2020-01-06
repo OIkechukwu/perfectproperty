@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Perfect Property | Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/fontawesome-free-5.10.1-web/css/all.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div id="nav"></div>
+    <div class="container py-5 ">
+        <div class="row px-5">
+            <h4>Sign Up</h4>
+        </div>    
+        <div class="row signUp">
+            <div class="col-md-6 signup__container p-5">
+                <div class="pt1 h-100 w-100 p-5">
+                    <form action="POST">
+                        <div class="form-group">
+                            <label for="inputFirstName">First Name</label>
+                            <input type="text" class="form-control" id="inputFirstName" aria-describedby="firtName" placeholder="Enter First Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputLastName">Last Name</label>
+                            <input type="text" class="form-control" id="inputLastName" aria-describedby="lastName" placeholder="Enter Last Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPhoneNumber">Phone Number</label>
+                            <input type="tel" class="form-control" id="inputPhoneNumber" aria-describedby="phoneNumber" placeholder="Enter Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail">Email Address</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Enter Email Address">
+                            <small id="emailHelp" class="form-text text-white">We'll not share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword">Password</label>
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn" style="background-color:  #5A2F2F; color: #ffffff">Sign up</button>
+                    </form>
+                    <p>You already have an account? Click <a href="login.html">here</a> to log in.</p>
+                </div>
+            </div>
+            <div class="col-md-6 signup__container p-5">
+                <div class="pt2 h-100 w-100 p-5">
+                    <div id="affirm">
+                        <h4>Why create an account?</h4>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope"></i><b> Recieve Email Alerts </b> when new properties are available.
+                    </div>
+                    <div>
+                        <i class="fa fa-star-half-alt"></i><b> Save Favorites</b> to view later.
+                    </div>
+                    <div>
+                        <i class="fa fa-camera"></i><b> Post A Property</b> feature is available.
+                    </div>
+                    <div>
+                        <i class="fa fa-newspaper"></i><b> Newsletter</b> feature is also available.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer"></div>
+
+    
+    <script src="js/nav-and-footer.js"></script>
+    <script src="./js/jquery-3.4.1.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="js/routes/routes.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
