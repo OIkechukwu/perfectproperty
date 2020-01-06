@@ -1,10 +1,10 @@
 const url = new Routes;
 
-let propertySaleUrl = 'http://localhost/perfectproperty/api/config/readProperty.php';
+let propertySaleUrl = 'https://upbeat-sinoussi-a84cd1.netlify.com/api/config/readProperty.php';
 // let propertySaleUrl = `${url.getForPropertySale}`;
 // console.log(propertyForSale)
 
-let landSaleUrl = 'http://localhost/perfectproperty/api/config/readLand.php';
+let landSaleUrl = 'https://upbeat-sinoussi-a84cd1.netlify.com/api/config/readLand.php';
 
 let propertyContainer = document.querySelector('.property__container');
 propertyContainer.innerHTML = "";
