@@ -1,10 +1,8 @@
 const url = new Routes;
 
-let propertyRentUrl = 'http://localhost/perfectproperty/api/config/readRentProperty.php';
-// let propertyRentUrl = `${url.getForPropertyRent}`;
-// console.log(propertyForRent)
+let propertyRentUrl = `${url.api_origin}${url.getPropertyRent}`;
 
-let landRentUrl = 'http://localhost/perfectproperty/api/config/readRentLand.php';
+let landRentUrl = `${url.api_origin}${url.getLandRent}`;
 
 let propertyContainer = document.querySelector('.property__container');
 propertyContainer.innerHTML = "";

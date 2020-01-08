@@ -1,13 +1,13 @@
 <?php
 class DBConnection extends PDO {
-    private $host = 'databases.000webhost.com';
-    // private $host = 'localhost';
-    // private $dbname = 'databases.000webhost.com';
-    private $dbname = 'perfectproperty';
-    // private $username = 'root';
-    private $username = 'id11179695_perfectproperty';
+    // private $host = 'databases.000webhost.com';
+    private $host = 'localhost';
+    private $dbname = 'perfect_property';
+    // private $dbname = 'perfectproperty';
+    private $username = 'root';
+    // private $username = 'id11179695_perfectproperty';
     private $password = '';
-    private $password = 'databases.000webhost.com';
+    // private $password = 'databases.000webhost.com';
 
     public function __construct(){
         try {

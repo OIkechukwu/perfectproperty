@@ -1,3 +1,6 @@
+body {
+    background-color: #F9FAFC;
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -204,7 +207,7 @@ div#choice button:hover {
         width: 100% !important;
     }
 }
-.for-rent{
+/* .for-rent{
     margin: 50px;
     
 }
@@ -527,7 +530,10 @@ div#choice button:hover {
 }
 .houses4sale a:active{
     border-bottom: 2px #3a3939 solid;
-}
+} */
+
+
+
 .signUp .pt1{
     background-color: #616060; 
     border-radius: 10px;

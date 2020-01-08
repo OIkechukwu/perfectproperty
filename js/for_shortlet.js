@@ -1,10 +1,8 @@
 const url = new Routes;
 
-let propertyShortletUrl = 'http://localhost/perfectproperty/api/config/readShortletProperty.php';
-// let propertyShortletUrl = `${url.getForPropertyShortlet}`;
-// console.log(propertyForShortlet)
+let propertyShortletUrl = `${url.api_origin}${url.getPropertyShortlet}`;
 
-let landShortletUrl = 'http://localhost/perfectproperty/api/config/readShortletLand.php';
+let landShortletUrl = `${url.api_origin}${url.getLandShortlet}`;
 
 let propertyContainer = document.querySelector('.property__container');
 propertyContainer.innerHTML = "";

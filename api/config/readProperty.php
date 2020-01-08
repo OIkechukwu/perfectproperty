@@ -6,7 +6,7 @@ require '../db_query/getProperties.php';
 
 $getProperty = new GetProperty;
 
-$json = json_encode($getProperty->getForSale());
+$json = json_encode($getProperty->getAllProperties());
 
 // if ($json['status']) {
 //     http_response_code(200);

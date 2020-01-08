@@ -1,10 +1,8 @@
 const url = new Routes;
 
-let propertySaleUrl = 'http://localhost/perfectproperty/api/config/readProperty.php';
-// let propertySaleUrl = `${url.getForPropertySale}`;
-// console.log(propertyForSale)
+let propertySaleUrl = `${url.api_origin}${url.getPropertySale}`;
 
-let landSaleUrl = 'http://localhost/perfectproperty/api/config/readLand.php';
+let landSaleUrl = `${url.api_origin}${url.getLandSale}`;
 
 let propertyContainer = document.querySelector('.property__container');
 propertyContainer.innerHTML = "";
@@ -113,7 +111,6 @@ const fetchLandSale = async ()=>{
     }
         } catch (err){
             console.log(err);
-            console.log('hey')
         } 
 }
     

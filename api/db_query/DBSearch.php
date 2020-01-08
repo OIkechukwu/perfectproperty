@@ -9,7 +9,7 @@ class SearchDB extends DBConnection {
         $response = $query->fetchAll(PDO::FETCH_ASSOC);
 
         // print_r($response);
-        if (count($response) == 0){
+        if ($query->rowCount() == 0){
             return ['status'=>true,'message'=>"No record found", 'property'=>"none"];
         } else {
             return ['status'=>false, 'message'=>"Budget found!", 'property'=>$response];
