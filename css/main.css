@@ -597,3 +597,10 @@ div#choice button:hover {
     justify-content: center;
     align-content: center;
 } */
+.btn{
+    background-color:  #5A2F2F; 
+    color: #ffffff;
+}
+.btn:hover{
+    color: #e2e0e0;
+}
