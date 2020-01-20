@@ -34,17 +34,17 @@ const fetchPropertyShortlet = async ()=>{
 
             propertyContainer.innerHTML += `
                 <div class="row property">
-                    <div class="col-md-3 d-flex justify-content-center align-items-center">
+                    <div class="col-md-4 d-flex justify-content-center align-items-center">
                         <img src="${image}" alt="${title}" class="img-fluid">
                     </div>
-                    <div class="col-md-9 property-description">
+                    <div class="col-md-8 property-description">
                         <div>Price : <span id="price">${price}</span></div>
                         <div class="description">${details}</div>
                         <div class="location">${location}</div>
-                        <div class="row">
-                            <span class="col social"><a href="#"><i class="fab fa-facebook-messenger"></i></a></span>
-                            <span class="col social"><a href="#"><i class="fa fa-envelope"></i></a></span>
-                            <span class="col social"><a href="#"><i class="fa fa-phone-alt"></i></a></span>
+                        <div class="row justify-content-end px-2">
+                            <span class="social"><a href="#"><i class="fab fa-facebook-messenger"></i></a></span>
+                            <span class="social"><a href="#"><i class="fa fa-envelope"></i></a></span>
+                            <span class="social"><a href="#"><i class="fa fa-phone-alt"></i></a></span>
                         </div>
                     </div>
                 </div>
@@ -90,17 +90,17 @@ const fetchLandShortlet = async ()=>{
 
         propertyContainer.innerHTML += `
             <div class="row property">
-                <div class="col-md-3 d-flex justify-content-center align-items-center">
+                <div class="col-md-4 d-flex justify-content-center align-items-center">
                     <img src="${image}" alt="${title}" class="img-fluid">
                 </div>
-                <div class="col-md-9 property-description">
+                <div class="col-md-8 property-description">
                     <div>Price : <span id="price">${price}</span></div>
                     <div class="description">${details}</div>
                     <div class="location">${location}</div>
-                    <div class="row">
-                        <span class="col social"><a href="#"><i class="fab fa-facebook-messenger"></i></a></span>
-                        <span class="col social"><a href="#"><i class="fa fa-envelope"></i></a></span>
-                        <span class="col social"><a href="#"><i class="fa fa-phone-alt"></i></a></span>
+                    <div class="row justify-content-end px-2">
+                        <span class="social"><a href="#"><i class="fab fa-facebook-messenger"></i></a></span>
+                        <span class="social"><a href="#"><i class="fa fa-envelope"></i></a></span>
+                        <span class="social"><a href="#"><i class="fa fa-phone-alt"></i></a></span>
                     </div>
                 </div>
             </div>
