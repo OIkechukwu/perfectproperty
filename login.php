@@ -1,3 +1,34 @@
+<?php
+// Define all required variables and set to empty values
+$emailErr = $passwordErr = " ";
+$email = $password = " ";
+
+if($_SERVER["REQUEST_METHOD"] == "POST"){
+    if (empty($_POST["email"])){
+        $emailErr = "Email is required";
+    }else{
+        $email = test_input($_POST["email"]);
+    }
+     //check if email is well formed
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)){
+         $emailErr = "Invalid email format";
+       
+    }
+    
+    if (empty($_POST["password"])){
+        $passwordErr = "Password is required";
+    }else{
+         $password = test_input($_SERVER["password"]);
+    }
+}
+function test_input($data){
+    $data = trim($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data);
+    return $data;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,20 +49,23 @@
         </div>
         <div class="row justify-content-center align-content-center m-auto">
             <div class="col-md-5 login__container p-5">
-                <form action="POST">
+                <form method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>">
                     <div class="form-group">
                         <label for="inputEmail">Email Address</label>
-                        <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Enter Email Address">
+                        <input type="email" class="form-control" id="email" value="<?php echo $email;?>" aria-describedby="email" placeholder="Enter Email Address">
                         <small id="emailHelp" class="form-text text-white">We'll not share your email with anyone else.</small>
+                        <span class="error"><?php echo $emailErr;?></span>
                     </div>
                     <div class="form-group">
                         <label for="inputPassword">Password</label>
-                        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                        <input type="password" class="form-control" id="inputPassword" 
+                        value="<?php echo $password;?>" placeholder="Password">
+                        <span class="error"><?php echo $passwordErr;?></span>
                     </div>
                     <button type="submit" class="btn">Login</button>
                 </form>
-                <h6><a href="resetPassword.html"> Forgot password?</a></h6>
-                <p>You don't have an account yet? Click <a href="signup.html">here</a> to sign up.</p>
+                <h6><a href="resetPassword.php"> Forgot password?</a></h6>
+                <p>You don't have an account yet? Click <a href="signUp.php">here</a> to sign up.</p>
             </div>
         </div>
     </div>

@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +16,7 @@
 <body>
     <div id="nav"></div>
     <div class="container py-5">
-        <form action="METHOD">
+        <form method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>">
             <div class="row">
                 <div class="col-md-5 justify-content-center align-content-center">
                     <div class="indiv">
@@ -49,7 +52,7 @@
                 <input type="text" class="form-control" id="price" placeholder="Enter The Price Of The Property">
                 <label for="inputLocation">Location</label>
                 <input type="text" class="form-control" id="location" placeholder="Enter Property Location">
-                <label for="inputPurpose">Title</label>
+                <label for="inputPurpose">Purpose</label>
                 <input type="text" class="form-control" id="purpose" placeholder="Enter Property Purpose">
                 <label for="inputDetails">Details</label>
                 <textarea rows="4" name="inputDetails" type="text" id="details" placeholder="Enter Property Details" class="form-control"></textarea>

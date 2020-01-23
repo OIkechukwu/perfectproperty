@@ -26,10 +26,10 @@ nav.innerHTML = `
         <a class="nav-link btn-action my-1 text-center my-md-0" href="post_property.html">Post a property <span class="highlight p-1"> FREE </span></a>
     </li>
     <li class="nav-item">
-        <a class="nav-link btn-action my-1 text-center my-md-0" href="login.html">Login</a>
+        <a class="nav-link btn-action my-1 text-center my-md-0" href="login.php">Login</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link btn-action my-1 text-center my-md-0" href="signUp.html">Sign Up</a>
+        <a class="nav-link btn-action my-1 text-center my-md-0" href="signUp.php">Sign Up</a>
     </li>
     </ul>
 </div>
