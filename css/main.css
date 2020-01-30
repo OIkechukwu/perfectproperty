@@ -1,3 +1,6 @@
+body {
+    background-color: #F9FAFC;
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -125,14 +128,14 @@ div#choice button:hover {
 .box1{
     /* margin: auto; */
     text-align: center;
-    color: whitesmoke;
+    /* color: wh; */
     
 }
 #box1{
-    background-color: #564256;
+    background-color: #eeeeee;
     padding-bottom: 20px;
 }
-#button{
+/* #button{
     background-color: #cf6a3d;
     padding-top: 4px;
     padding-bottom: 4px;
@@ -143,10 +146,10 @@ div#choice button:hover {
     border-radius: 5%;
     border: 1px solid #564256; 
       
-}
-#button:hover{
+} */
+/* #button:hover{
     background-color: rgb(5, 5, 77);   
-}
+} */
 #become_agent{
     font-size: xx-large;
 }
@@ -164,8 +167,8 @@ div#choice button:hover {
     font-size: 0.9em;
 }
 #box4{
-    min-height: 50vh;
-    background-color: #0a0311;
+    min-height: 10vh;
+    background-color: #343A40;
 }
 #agent{
     font-size: 1.2em;
@@ -180,18 +183,7 @@ div#choice button:hover {
     font-weight: lighter;
     opacity: 0.7;
 }
-/* #footer_line1{
-    border-bottom: 2px solid gray;
-}
-#footer_line2{
-    border-bottom: 2px solid white;
-    margin-top: 1px;
-} */
-#copyright{
-    border-radius:60%;
-    border: 1px solid white;
-    font-size: x-small;
-}
+
 #team{
     font-size:0.6em;
 }
@@ -204,330 +196,7 @@ div#choice button:hover {
         width: 100% !important;
     }
 }
-.for-rent{
-    margin: 50px;
-    
-}
-.f-rent{
-    display: flex;
-}
-.f-rent ul{
-    margin-left: auto;
-    display: flex;
-}
 
-.f-rent ul :first-child{
-    margin-right: 20px;
-}
-.f-rent ul :nth-child(2) button{
-    padding: 0px 20px;
-    border-radius: 3px;
-    background-color: #5a2f2f;
-    color: #ffffff;
-}
-.d-features{
-    border: solid 1px #cccccc;
-    border-radius: 10px;
-    background-color: #cccccc;
-    box-shadow: #464444 2px 2px 2px 2px;
-}
-#features-1{
-    display: flex;
-    margin-top: 20px;
-    border-bottom: solid 2px #585858;
-    
-}
-#featured-homes-1{
-    background-color: rgb(143, 122, 94);
-    border-radius: 10px;
-}
-#features-1 ul{
-    margin-left: auto; 
-    display: flex;
-    
-    
-}
-#features-1 ul li{
-    margin-left: 20px;
-}
-.details-1 ul{
-    display: flex;
-}
-.details-1 ul :nth-child(2){
-    margin-left: auto;
-}
-.communicate-1 ul{
-    display: flex;    
-}
-#marker-1{
-    font-size: 12px;
-}
-.communicate-1 ul li{
-    margin: 20px 0px;
-    margin-right: 50px;
-    font-size: 30px;
-    background-color: #3a3939;
-    color: #ffffff;
-    padding: 5px 15px;
-    border-radius: 50px;
-
-}
-.d-features-2{
-    border: solid 1px #cccccc;
-    border-radius: 10px;
-    background-color: #cccccc;
-    box-shadow: #464444 2px 2px 2px 2px;
-}
-#features-2{
-    display: flex;
-    margin-top: 20px;
-    border-bottom: solid 2px #585858;
-    
-}
-#featured-homes-2{
-    background-color: rgb(143, 122, 94);
-    border-radius: 10px;
-}
-#features-2 ul{
-    margin-left: auto; 
-    display: flex;
-    
-    
-}
-#features-2 ul li{
-    margin-left: 20px;
-}
-.details-2 ul{
-    display: flex;
-}
-.details-2 ul :nth-child(2){
-    margin-left: auto;
-}
-.communicate-2 ul{
-    display: flex;    
-}
-#marker-2{
-    font-size: 12px;
-}
-.communicate-2 ul li{
-    margin: 20px 0px;
-    margin-right: 50px;
-    font-size: 30px;
-    background-color: #3a3939;
-    color: #ffffff;
-    padding: 5px 15px;
-    border-radius: 50px;
-
-}
-.d-features-3{
-    border: solid 1px #cccccc;
-    border-radius: 10px;
-    background-color: #cccccc;
-    box-shadow: #464444 2px 2px 2px 2px;
-}
-#features-3{
-    display: flex;
-    margin-top: 20px;
-    border-bottom: solid 2px #585858;
-    
-}
-#featured-homes-3{
-    background-color: rgb(143, 122, 94);
-    border-radius: 10px;
-}
-#features-3 ul{
-    margin-left: auto; 
-    display: flex;
-    
-    
-}
-#features-3 ul li{
-    margin-left: 20px;
-}
-.details-3 ul{
-    display: flex;
-}
-.details-3 ul :nth-child(2){
-    margin-left: auto;
-}
-.communicate-3 ul{
-    display: flex;    
-}
-#marker-3{
-    font-size: 12px;
-}
-.communicate-3 ul li{
-    margin: 20px 0px;
-    margin-right: 50px;
-    font-size: 30px;
-    background-color: #3a3939;
-    color: #ffffff;
-    padding: 5px 15px;
-    border-radius: 50px;
-
-}
-.d-features-4{
-    border: solid 1px #cccccc;
-    border-radius: 10px;
-    background-color: #cccccc;
-    box-shadow: #464444 2px 2px 2px 2px;
-}
-#features-4{
-    display: flex;
-    margin-top: 20px;
-    border-bottom: solid 2px #585858;
-    
-}
-#featured-homes-4{
-    background-color: rgb(143, 122, 94);
-    border-radius: 10px;
-}
-#features-4 ul{
-    margin-left: auto; 
-    display: flex;
-    
-    
-}
-#features-4 ul li{
-    margin-left: 20px;
-}
-.details-4 ul{
-    display: flex;
-}
-.details-4 ul :nth-child(2){
-    margin-left: auto;
-}
-.communicate-4 ul{
-    display: flex;    
-}
-#marker-4{
-    font-size: 12px;
-}
-.communicate-4 ul li{
-    margin: 20px 0px;
-    margin-right: 50px;
-    font-size: 30px;
-    background-color: #3a3939;
-    color: #ffffff;
-    padding: 5px 15px;
-    border-radius: 50px;
-
-}
-.d-features-5{
-    border: solid 1px #cccccc;
-    border-radius: 10px;
-    background-color: #cccccc;
-    box-shadow: #464444 2px 2px 2px 2px;
-}
-#features-5{
-    display: flex;
-    margin-top: 20px;
-    border-bottom: solid 2px #585858;
-    
-}
-#featured-homes-5{
-    background-color: rgb(143, 122, 94);
-    border-radius: 10px;
-}
-#features-5 ul{
-    margin-left: auto; 
-    display: flex;
-    
-    
-}
-#features-5 ul li{
-    margin-left: 20px;
-}
-.details-5 ul{
-    display: flex;
-}
-.details-5 ul :nth-child(2){
-    margin-left: auto;
-}
-.communicate-5 ul{
-    display: flex;    
-}
-#marker-5{
-    font-size: 12px;
-}
-.communicate-5 ul li{
-    margin: 20px 0px;
-    margin-right: 50px;
-    font-size: 30px;
-    background-color: #3a3939;
-    color: #ffffff;
-    padding: 5px 15px;
-    border-radius: 50px;
-
-}
-.d-features-6{
-    border: solid 1px #cccccc;
-    border-radius: 10px;
-    background-color: #cccccc;
-    box-shadow: #464444 2px 2px 2px 2px;
-}
-#features-6{
-    display: flex;
-    margin-top: 20px;
-    border-bottom: solid 2px #585858;
-    
-}
-#featured-homes-6{
-    background-color: rgb(143, 122, 94);
-    border-radius: 10px;
-}
-#features-6 ul{
-    margin-left: auto; 
-    display: flex;
-    
-    
-}
-#features-6 ul li{
-    margin-left: 20px;
-}
-.details-6 ul{
-    display: flex;
-}
-.details-6 ul :nth-child(2){
-    margin-left: auto;
-}
-.communicate-6 ul{
-    display: flex;    
-}
-#marker-6{
-    font-size: 12px;
-}
-.communicate-6 ul li{
-    margin: 20px 0px;
-    margin-right: 50px;
-    font-size: 30px;
-    background-color: #3a3939;
-    color: #ffffff;
-    padding: 5px 15px;
-    border-radius: 50px;
-}
-.houses4sale ul{
-    display: flex;
-
-}
-.houses4sale ul :nth-child(2){
-    margin-left: 5px;
-    margin-right: auto;
-
-}
-.houses4sale ul :nth-child(3){
-    margin-top: 3px;
-}
-.houses4sale ul :last-child button{
-    padding: 0px 20px;
-    border-radius: 3px;
-    background-color: #5a2f2f;
-    color: #ffffff;
-    margin-left: 20px;
-}
-.houses4sale a:active{
-    border-bottom: 2px #3a3939 solid;
-}
 .signUp .pt1{
     background-color: #616060; 
     border-radius: 10px;
@@ -587,10 +256,7 @@ div#choice button:hover {
 .login__container p a:hover{
     color: aqua;
 }
-/* .container__reset{
-    justify-content: center;
-    align-content: center;
-} */
+
 .btn{
     background-color:  #5A2F2F; 
     color: #ffffff;

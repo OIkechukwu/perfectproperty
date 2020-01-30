@@ -71,7 +71,7 @@ function test_input($data){
             <h4>Sign Up</h4>
         </div>    
         <div class="row signUp">
-            <div class="col-md-6 signup__container p-5">
+            <div class="col-md-6 signup__container p-md-5">
                 <div class="pt1 h-100 w-100 p-5">
                 <form method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>">
                         <div class="form-group">
@@ -104,7 +104,7 @@ function test_input($data){
                     <p>You already have an account? Click <a href="login.php">here</a> to log in.</p>
                 </div>
             </div>
-            <div class="col-md-6 signup__container p-5">
+            <div class="col-md-6 signup__container p-md-5 mt-3 mt-md-0">
                 <div class="pt2 h-100 w-100 p-5">
                     <div id="affirm">
                         <h4>Why create an account?</h4>

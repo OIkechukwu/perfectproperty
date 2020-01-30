@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Perfect Property | Agent Dashboard</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/fontawesome-free-5.10.1-web/css/all.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/admin-dashboard.css">
+</head>
+<body>
+    <div id="nav"></div>
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Hi Agent,</h4>
+                <h1>Welcome back!</h1> <hr>
+                <h6>Click on each tile to view and edit.</h6>
+                <button class="btn btn-dark">VIEW ALL TRANSACTIONS</button>
+            </div>
+            <div class="col-md-4 d-flex flex-column">
+                <div class="tile p-3">
+                    <h2>Transations</h2>
+                    <p>View all the transactions</p>
+                    <div class="agents-sum"><span id="transactions"> 0</span></div>
+                </div>
+                <div class="tile p-3">
+                    <h2>Properties</h2>
+                    <p>View all the properties</p>
+                    <div class="agents-sum"><span id="properties"> 0</span></div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex flex-column">
+                <div class="tile p-3">
+                    <h2>Lands</h2>
+                    <p>View all the lands</p>
+                    <div class="agents-sum"><span id="lands"> 0</span></div>
+                </div>
+                <div class="tile p-3">
+                    <h2>Settings</h2>
+                    <p>View all the settings</p>
+                    <div class="agents-sum"><span id="settings"><i class="fa fa-cog"></i></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div id="footer"></div> -->
+
+    
+    <script src="js/nav-and-footer.js"></script>
+    <script src="./js/jquery-3.4.1.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="js/routes/routes.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/agent-dashboard.js"></script>
+</body>
+</html>

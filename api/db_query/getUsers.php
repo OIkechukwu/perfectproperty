@@ -9,7 +9,7 @@ class GetUsers extends DBQuery {
         $response = $query->fetchAll(PDO::FETCH_ASSOC);
 
         // print_r($response);
-        if (count($response) == 0){
+        if ($query->rowCount() == 0){
             return ['status'=>false,'message'=>"No record found", 'user'=>"none"];
         } else {
             return ['status'=>true, 'message'=>"Email address already exists!", 'user'=>$response];

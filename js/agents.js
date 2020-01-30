@@ -1,16 +1,16 @@
 const url = new Routes;
 
-let propertyRentUrl = `${url.api_origin}${url.getPropertyRent}`;
+let propertySaleUrl = `${url.api_origin}${url.getPropertySale}`;
 
-let landRentUrl = `${url.api_origin}${url.getLandRent}`;
+let landSaleUrl = `${url.api_origin}${url.getLandSale}`;
 
 let propertyContainer = document.querySelector('.property__container');
 propertyContainer.innerHTML = "";
 
-//fetch properties for Rent
-const fetchPropertyRent = async ()=>{
+//fetch properties for sale
+const fetchPropertySale = async ()=>{
     try{
-        let response = await fetch(propertyRentUrl, {
+        let response = await fetch(propertySaleUrl, {
             headers: {
                 Accept: "application/json",
                 "Content-Type": "application/json"
@@ -20,7 +20,7 @@ const fetchPropertyRent = async ()=>{
         console.log(data.property)
         console.log('hi')
 
-        //insert the properties for Rent into the DOM
+        //insert the properties for sale into the DOM
     if (data.status) {
         data.property.forEach(element =>{
             let {title, 
@@ -34,10 +34,10 @@ const fetchPropertyRent = async ()=>{
 
             propertyContainer.innerHTML += `
                 <div class="row property">
-                    <div class="col-md-4 d-flex justify-content-center align-items-center">
+                    <div class="col-md-3 d-flex justify-content-center align-items-center">
                         <img src="${image}" alt="${title}" class="img-fluid">
                     </div>
-                    <div class="col-md-8 property-description">
+                    <div class="col-md-9 property-description">
                         <div>Price : <span id="price">${price}</span></div>
                         <div class="description">${details}</div>
                         <div class="location">${location}</div>
@@ -60,13 +60,13 @@ const fetchPropertyRent = async ()=>{
     }
 }
     
-fetchPropertyRent();
+fetchPropertySale();
 
-//fetch land for Rent
+//fetch land for sale
 
-const fetchLandRent = async ()=>{
+const fetchLandSale = async ()=>{
     try{
-        let response = await fetch(landRentUrl, {
+        let response = await fetch(landSaleUrl, {
             headers: {
                 Accept: "application/json",
                 "Content-Type": "application/json"
@@ -76,7 +76,7 @@ const fetchLandRent = async ()=>{
         console.log(data.land)
         console.log('hi')
 
-        //insert the properties for Rent into the DOM
+        //insert the properties for sale into the DOM
         if (data.status) {
     data.land.forEach(element =>{
         let {title, 
@@ -90,10 +90,10 @@ const fetchLandRent = async ()=>{
 
         propertyContainer.innerHTML += `
             <div class="row property">
-                <div class="col-md-4 d-flex justify-content-center align-items-center">
+                <div class="col-md-3 d-flex justify-content-center align-items-center">
                     <img src="${image}" alt="${title}" class="img-fluid">
                 </div>
-                <div class="col-md-8 property-description">
+                <div class="col-md-9 property-description">
                     <div>Price : <span id="price">${price}</span></div>
                     <div class="description">${details}</div>
                     <div class="location">${location}</div>
@@ -111,8 +111,7 @@ const fetchLandRent = async ()=>{
     }
         } catch (err){
             console.log(err);
-            console.log('hey')
         } 
 }
     
-fetchLandRent();
+fetchLandSale();

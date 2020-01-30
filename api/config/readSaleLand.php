@@ -6,7 +6,7 @@ require '../db_query/getLands.php';
 
 $getLand = new GetLand;
 
-$json = json_encode($getLand->getAllLands());
+$json = json_encode($getLand->getForSale());
 
 // if ($json['status']) {
 //     http_response_code(200);
